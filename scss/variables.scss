@@ -1,0 +1,23 @@
+// Variables de colores
+$primary-color: #53b0c8;       // Color primario
+$secondary-color: #087f84;     // Color secundario
+$bg-claro: #fff;               // Color de fondo claro
+$bg-letra: #333;               // Color de la letra
+
+// Variables de tipografía
+$font-family: "Roboto", sans-serif; // Tipografía principal
+
+// Variables para botones y formularios
+$button-bg-color: $primary-color;  // Color de fondo para botones
+$button-text-color: #fff;          // Color del texto en los botones
+$button-hover-bg-color: $secondary-color;  // Color de fondo en hover para botones
+
+// Variables para bordes y sombreados
+$border-radius: 5px;              // Radio de borde para formularios y botones
+$input-border-color: #ddd;        // Color de borde de los inputs y textareas
+
+// Variables para tamaños
+$font-size-large: 1.5em;          // Tamaño de fuente grande
+$font-size-medium: 1.2em;         // Tamaño de fuente mediano
+$font-size-small: 1em;            // Tamaño de fuente pequeño
+$padding-standard: 10px;          // Padding estándar
