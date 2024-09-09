@@ -1,0 +1,75 @@
+@import 'variables'; // Importa las variables
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family; // Usa la variable de tipografía
+  background-color: $bg-claro; // Usa la variable de fondo
+}
+
+header {
+  background-color: $bg-claro; // Color de fondo del header
+  text-align: center;
+  padding: $padding-standard;
+
+  img {
+    width: 180px;
+    padding: 5px;
+    margin-top: 8px;
+  }
+
+  h1 {
+    color: $bg-letra; // Color del texto del header
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 10px;
+      display: inline-block;
+
+      a {
+        color: $bg-letra; // Color de los enlaces
+        font-size: $font-size-medium;
+        font-weight: bold;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+          color: $secondary-color; // Color en hover
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $bg-claro; // Color de fondo del footer
+  text-align: center;
+  padding: $padding-standard;
+  color: $bg-letra; // Color del texto del footer
+
+  img {
+    width: 120px;
+    margin: 10px 0;
+  }
+
+  h5 {
+    margin-top: 10px;
+    font-size: $font-size-medium;
+  }
+}
+.hero {
+  background-image: url('../images/hero-bg.jpg'); // Asegúrate de que esta imagen exista
+  background-size: cover;
+  background-position: center;
+  height: 400px; // 
+}
